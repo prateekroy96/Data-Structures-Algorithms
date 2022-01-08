@@ -4,7 +4,6 @@
  * @param sums sum total of each set
  */
 function canPartitionKSubsets(start, nums, sums) {
-  // console.log(++count)
   if (isComplete(sums)) return true;
   if (start == nums.length) return false;
 
